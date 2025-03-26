@@ -6,7 +6,7 @@
 
 Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis.
 
-In short, its like renting a server or other computing service.
+***In short***, its like renting a server or other computing service.
 
 ### How do we know if something is in the Cloud? (on-prem vs the cloud)
 
@@ -15,23 +15,28 @@ In short, its like renting a server or other computing service.
 
 Easiest way to know if it's in the cloud is that you can access it anywhere with an internet connection. Turn off your internet and see if it still works.
 
+***Do you have remote access?***
+
 ### What are some popular cloud computing services and how are they used?
 
 - ***Dropbox***: Cloud storage
-- ***AWS***: Commonly used for hosting websites, data storage, and running applications
-- ***Microsoft Azure***: Hosting applications, providing storage, enabling networking, and offering analytics and AI capabilities
+- ***AWS***: Commonly used for hosting websites, data storage, and running applications.
+[AWS 10 most used services](https://ip-specialist.medium.com/top-10-most-used-aws-services-in-2024-you-should-know-71b7ebc6a440#:~:text=Use%20Cases:%20*%20Hosting%20web%20applications%20with,*%20Running%20business%20intelligence%20and%20reporting%20applications.)
+- ***Microsoft Azure***: Hosting applications, providing storage, enabling networking, and offering analytics and AI capabilities (Open AI)
 - ***GCP (google cloud platform)***: Commonly used for data analysis and AI services
 
 ### Explain the four main cloud deployment models
 
-- ***Public Cloud***: The cloud infrastructure is owned and operated by a third-party provider and shared with other organizations. (AWS, Azure)
+- ***Public Cloud***: The cloud infrastructure is owned and operated by a third-party provider and shared with other organizations. (AWS, Azure). Cheaper but with less customisation and security.
 - ***Private Cloud***: The cloud infrastructure is used exclusively by one organization. It can be hosted either on-premises or by a third-party provider.
-- ***Hybrid Cloud***: A combination of both public and private clouds, allowing data and applications to be shared between them.
+- ***Hybrid Cloud***: A combination of both public and private clouds.
 - ***Community Cloud***: Shared infrastructure that is used by a specific community of organizations with common concerns
+
+![Cloud image](https://www.cisecurity.org/-/jssmedia/project/cisecurity/cisecurity/data/media/img/uploads/2019/06/hybrid-cloud-environment.png)
   
 ### Explain the three main types of cloud service
 
-- ***Infrastructure as a Service (IaaS)***: Delivers on-demand infrastructure resources, such as compute, storage, networking, and virtualization. With IaaS, the service provider owns and operates the infrastructure, but customers will need to purchase and manage software, such as operating systems, middleware, data, and applications.
+- ***Infrastructure as a Service (IaaS)***: Delivers on-demand infrastructure resources, such as computation, storage, networking, and virtualization. With IaaS, the service provider owns and operates the infrastructure, but customers will need to purchase and manage software, such as operating systems, middleware, data, and applications.
 - ***Platform as a Service (PaaS)***: Delivers and manages hardware and software resources for developing, testing, delivering, and managing cloud applications. Providers typically offer middleware, development tools, and cloud databases
 - ***Software as a Service (SaaS)***: Provides a full application stack as a service that customers can access and use. SaaS solutions often come as ready-to-use applications, which are managed and maintained by the cloud service provider.
 
