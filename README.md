@@ -67,7 +67,7 @@ Easiest way to know if it's in the cloud is that you can access it anywhere with
 - ***Azure*** is known for its strong integration with Microsoft services and hybrid cloud offerings.
 - ***GCP*** is known for its strengths in data analytics, AI, and Kubernetes/container orchestration.
 
-###### What sorts of thing do you usually pay for when using the cloud?
+### What sorts of thing do you usually pay for when using the cloud?
 
 - Computing Power
 - Storage
