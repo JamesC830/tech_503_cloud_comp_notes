@@ -6,7 +6,7 @@
 
 Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis.
 
-In short, its like renting server or other computing service.
+In short, its like renting a server or other computing service.
 
 ### How do we know if something is in the Cloud? (on-prem vs the cloud)
 
@@ -73,3 +73,18 @@ Easiest way to know if it's in the cloud is that you can access it anywhere with
 
 ### What are the four pillars of DevOps? How are they linked to cloud computing?
 
+People dont really agree on the 4 pillars
+
+Some examples are:
+
+- Communication, Collaboration, Automation and Monitoring
+- Stability, Scalability, Speed, and Security
+- Culture, Automation, Measurement and Continuous learning
+- Culture, Lean Product, Architecture, and Technology
+
+How are they linked to cloud computing?
+
+- ***Culture***: Allows teams to access the same resources and environments, regardless of their physical location.
+- ***Automation***: Cloud provides services and tools used for automation
+- ***Lean***: Cloud tools are flexible, scalable, and cost efficient
+- ***Measurement***: Cloud has data analysis tools
