@@ -67,3 +67,11 @@ allows you to enter the root directory
 ```sudo apt install nginx - y``` 
 
 ```sudo systemctl status nginx```
+
+# Scripting
+
+```nano scriptname.sh``` Creates script
+
+```#!/bin/bash``` Always start a script with this
+
+```source scriptname``` runs the script
