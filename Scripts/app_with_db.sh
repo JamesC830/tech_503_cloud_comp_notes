@@ -43,9 +43,15 @@ sudo npm install
 sudo DEBIAN_FRONTEND=noninteractive npm install pm2 -g
  
 # kill any running node processes that could interfere
+#maybe this is the issue
 pm2 kill
+
+#Need to manually insert <db-ip-address>
+export DB_HOST=mongodb://<db-ip-address>:27017/posts
+printenv DB_HOST
+
+#Seed the posts database
+node seeds/seed.js
  
 # run the app with pm2 (in the background by default)
 pm2 start app.js
-
-pm2 startup
