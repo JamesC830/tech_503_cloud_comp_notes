@@ -46,6 +46,8 @@ sudo systemctl status mongod
 cd nodejs-sparta-test-app
 cd app
 
+
+
 #Need to manually insert <db-ip-address>
 export DB_HOST=mongodb://<db-ip-address>:27017/posts
 printenv DB_HOST
