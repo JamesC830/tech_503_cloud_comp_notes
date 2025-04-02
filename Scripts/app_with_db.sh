@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#Note: If launching from image when copying the EC2
+#script to enter the image
+#Change root to ubuntu
+
 #update
 sudo apt update -y
 
@@ -45,6 +49,10 @@ sudo DEBIAN_FRONTEND=noninteractive npm install pm2 -g
 # kill any running node processes that could interfere
 #maybe this is the issue
 pm2 kill
+
+#If launching from image navigate to app folder
+#cd nodejs-sparta-test-app
+#cd app
 
 #Need to manually insert <db-ip-address>
 export DB_HOST=mongodb://<db-ip-address>:27017/posts

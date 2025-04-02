@@ -24,7 +24,7 @@ sudo apt update -y
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -y mongodb-org=7.0.6 mongodb-org-database=7.0.6 mongodb-org-server=7.0.6 mongodb-mongosh=2.1.5 mongodb-org-mongos=7.0.6 mongodb-org-tools=7.0.6
 
 #Change the bindIP in the config file
-sudo sed -i "s/bindIp: 127.0.0.1/bindIP: 0.0.0.0/" /etc/mongod.conf
+sudo sed -i "s/bindIp: 127.0.0.1/bindIp: 0.0.0.0/" /etc/mongod.conf
 
 #start mongoDB
 sudo systemctl start mongod
