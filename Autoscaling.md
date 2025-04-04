@@ -4,7 +4,7 @@
 - ***Verical***: Bigger, more powerful CPU
 - ***Horizontal***: More CPUs
 
-![Image](.\Images\James_ASG.png)
+![Image](./Images/James_ASG.png)
 
 
 ### Abreviations
@@ -61,8 +61,6 @@ pm2 start app.js
 #Stop being ubuntu as user
 EOF
 ```
-
-![alt text](.\Images\image-1.png)
 
 Here is the summary of what you need
 - Create launch template
