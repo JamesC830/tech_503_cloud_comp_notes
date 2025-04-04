@@ -22,8 +22,6 @@
 
 # 1. Launch template
 
-![alt text](.\Images\image.png)
-
 - Create launch template
 - Name: tech503-james-lt-for-sparta-app
 - Select Auto-Scaling guidance
@@ -105,12 +103,4 @@ To test it works, you can launch an instance from the template
 - Tags: Name: tech503-james-app-asg
 - Next
 
-**Full summary**
-![alt text](.\Images\image-2.png)
-![alt text](.\Images\image-3.png)
-![alt text](.\Images\image-4.png)
-![alt text](.\Images\image-5.png)
-![alt text](.\Images\image-6.png)
-![alt text](.\Images\image-7.png)
-![alt text](.\Images\image-8.png)
 
