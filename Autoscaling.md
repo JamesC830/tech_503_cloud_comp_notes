@@ -4,7 +4,7 @@
 - ***Verical***: Bigger, more powerful CPU
 - ***Horizontal***: More CPUs
 
-![Image](Images\James_ASG.png)
+![Image](.\Images\James_ASG.png)
 
 
 ### Abreviations
@@ -22,7 +22,7 @@
 
 # 1. Launch template
 
-![alt text](Images\image.png)
+![alt text](.\Images\image.png)
 
 - Create launch template
 - Name: tech503-james-lt-for-sparta-app
@@ -64,7 +64,7 @@ pm2 start app.js
 EOF
 ```
 
-![alt text](Images\image-1.png)
+![alt text](.\Images\image-1.png)
 
 Here is the summary of what you need
 - Create launch template
@@ -106,11 +106,11 @@ To test it works, you can launch an instance from the template
 - Next
 
 **Full summary**
-![alt text](Images\image-2.png)
-![alt text](Images\image-3.png)
-![alt text](Images\image-4.png)
-![alt text](Images\image-5.png)
-![alt text](Images\image-6.png)
-![alt text](Images\image-7.png)
-![alt text](Images\image-8.png)
+![alt text](.\Images\image-2.png)
+![alt text](.\Images\image-3.png)
+![alt text](.\Images\image-4.png)
+![alt text](.\Images\image-5.png)
+![alt text](.\Images\image-6.png)
+![alt text](.\Images\image-7.png)
+![alt text](.\Images\image-8.png)
 
