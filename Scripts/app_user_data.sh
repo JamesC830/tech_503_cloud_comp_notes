@@ -8,7 +8,7 @@ echo "Running as the ubuntu user"
 cd
 
 #Wait for image script to run
-sleep 60
+sleep 20
 
 cd nodejs-sparta-test-app
 cd app
@@ -16,18 +16,18 @@ cd app
 #Install npm
 sudo npm install
 
-sleep 10
+sleep 2
 
 #Need to manually insert <db-ip-address>
 export DB_HOST=mongodb://<db-ip-address>:27017/posts
 printenv DB_HOST
 
-sleep 10
+sleep 2
 
 #Seed the posts database
 node seeds/seed.js
 
-sleep 10
+sleep 2
  
 # run the app with pm2 (in the background by default)
 pm2 start app.js
